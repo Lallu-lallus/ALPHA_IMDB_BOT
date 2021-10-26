@@ -127,7 +127,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
                     ],
                     [
-                        InlineKeyboardButton("🙂 source code", url="https://t.me/joinchat/z9D7dU9AN5oyYTll"),
+                        InlineKeyboardButton("🙂 source code", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl)"),
                         InlineKeyboardButton("😎 About", callback_data="about")
                     ],
                     [
