@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 PHOTO = [
-    "https://telegra.ph/file/daa0e86574b573c68cd7d.jpg",
+    "https://telegra.ph/file/5d6b706c15e7dc4e1a402.jpg",
 
 ]
 
@@ -112,14 +112,14 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url='https://t.me/tg_bots_updates')
+                        InlineKeyboardButton("Channel", url='https://t.me/joinchat/z9D7dU9AN5oyYTll')
                     ]
                 ]
             )
         )
     else:
         await cmd.reply_photo(
-            photo=f"{random.choice(PHOTO)}",
+            photo=f"{random.choice(PHOTO)https://telegra.ph/file/5d6b706c15e7dc4e1a402.jpg}",
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -127,7 +127,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
                     ],
                     [
-                        InlineKeyboardButton("🙂 source code", url="https://github.com/Lallu-lallus/ALPHA_IMDB_BOT"),
+                        InlineKeyboardButton("🙂 source code", url="https://t.me/joinchat/z9D7dU9AN5oyYTll"),
                         InlineKeyboardButton("😎 About", callback_data="about")
                     ],
                     [
