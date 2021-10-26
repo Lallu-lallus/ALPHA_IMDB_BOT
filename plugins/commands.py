@@ -224,8 +224,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/tg_bots_updates'),
-            InlineKeyboardButton('Source Code', url='https://github.com/Lallu-lallus/ALPHA-AUTO-FILTER-BOT')
+            InlineKeyboardButton('Update Channel', url='https://t.me/mainchannel12346'),
+            InlineKeyboardButton('Source Code', url='https://t.me/biriyanikadaaa/4')
         ]
         ]
     await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nDEVELOPER👨🏻‍💻 : <a href='https://t.me/ivar_bonel'>Click here</a>\nUpdate Channel : <a href='https://t.me/mainchannel12346'>👉HERE👈</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
