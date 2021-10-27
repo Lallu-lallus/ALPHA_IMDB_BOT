@@ -95,7 +95,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('🔍Search again🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('🤖More Bots🤖', url='https://t.me/tg_bots_updates')
+                        InlineKeyboardButton('🤖More Bots🤖', url='https://t.me/t')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -226,8 +226,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/mainchannel12346'),
+            InlineKeyboardButton('Update Channel', url='https://t.me/mymasterbay'),
             InlineKeyboardButton('Source Code🥳', url='https://t.me/biriyanikadaaa/4')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nDEVELOPER👨🏻‍💻 : <a href='https://t.me/ivar_bonel'>₲Ø₭Ʉ₴Ø₦</a>\nUpdate Channel : <a href='https://t.me/mainchannel12346'>👉HERE👈</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nDEVELOPER👨🏻‍💻 : <a href='https://t.me/ivar_bonel'>₲Ø₭Ʉ₴Ø₦</a>\nUpdate Channel : <a href='https://t.me/mymasterbay'>👉HERE👈</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
