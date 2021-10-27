@@ -133,11 +133,11 @@ async def start(bot, cmd):
                         InlineKeyboardButton("😎 About", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("OWNER 🤴", url="https://t.me/filmspoteradmin"),
+                        InlineKeyboardButton("🤴OWNER🤴", url="https://t.me/filmspoteradmin"),
                         InlineKeyboardButton("Dev 👨🏻‍💻", url="https://t.me/ivar_bonel")
                     ],
                     [
-                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
+                        InlineKeyboardButton"Search Here♂️", switch_inline_query_current_chat='')
                     ]
                 ]
             )
