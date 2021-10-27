@@ -94,8 +94,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🔍Search again🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('🤖More Bots🤖', url='https://t.me/t')
+                        InlineKeyboardButton('🌀SEARCH AGAIN 🌀', url='https://t.me/Filmspoters'),
+                        InlineKeyboardButton('🤖More Bots🤖', url='https://t.me/mymasterbay')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -126,7 +126,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
+                        InlineKeyboardButton("🍁 OUR GROUP 🍁", url="https://t.me/Filmspoters")
                     ],
                     [
                         InlineKeyboardButton("🙂 source code", url="https://t.me/biriyanikadaaa/4"),
@@ -227,7 +227,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             InlineKeyboardButton('Update Channel', url='https://t.me/mymasterbay'),
-            InlineKeyboardButton('Source Code🥳', url='https://t.me/biriyanikadaaa/4')
+            InlineKeyboardButton('Source Code🙃', url='https://t.me/biriyanikadaaa/4')
         ]
         ]
     await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nDEVELOPER👨🏻‍💻 : <a href='https://t.me/ivar_bonel'>₲Ø₭Ʉ₴Ø₦</a>\nUpdate Channel : <a href='https://t.me/mymasterbay'>👉HERE👈</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
