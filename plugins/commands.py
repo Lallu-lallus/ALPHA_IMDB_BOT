@@ -124,7 +124,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
+                        InlineKeyboardButton("❣️CHANNEL❣️", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl)")
                     ],
                     [
                         InlineKeyboardButton("🙂 source code", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl)"),
@@ -135,7 +135,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("2 Dev", url="https://t.me/darkz_angel")
                     ],
                     [
-                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
+                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/joinchat/kqXrYjnUQVQ2ZTg1")
                     ]
                 ]
             )
