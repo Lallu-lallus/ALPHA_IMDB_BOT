@@ -129,12 +129,12 @@ async def start(bot, cmd):
                         InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
                     ],
                     [
-                        InlineKeyboardButton("🙂 source code", url="https://github.com/Lallu-lallus/ALPHA_IMDB_BOT"),
+                        InlineKeyboardButton("🙂 source code", url="https://t.me/biriyanikadaaa/4"),
                         InlineKeyboardButton("😎 About", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("1 Dev", url="https://t.me/joinchat/Hn3YHLdbQf04MmM1"),
-                        InlineKeyboardButton("2 Dev", url="https://t.me/darkz_angel")
+                        InlineKeyboardButton("OWNER 🤴", url="https://t.me/filmspoteradmin"),
+                        InlineKeyboardButton("Dev 👨🏻‍💻", url="https://t.me/ivar_bonel")
                     ],
                     [
                         InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
@@ -227,7 +227,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             InlineKeyboardButton('Update Channel', url='https://t.me/mainchannel12346'),
-            InlineKeyboardButton('Source Code', url='https://t.me/biriyanikadaaa/4')
+            InlineKeyboardButton('Source Code🥳', url='https://t.me/biriyanikadaaa/4')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nDEVELOPER👨🏻‍💻 : <a href='https://t.me/ivar_bonel'>Click here</a>\nUpdate Channel : <a href='https://t.me/mainchannel12346'>👉HERE👈</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nDEVELOPER👨🏻‍💻 : <a href='https://t.me/ivar_bonel'>₲Ø₭Ʉ₴Ø₦</a>\nUpdate Channel : <a href='https://t.me/mainchannel12346'>👉HERE👈</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
