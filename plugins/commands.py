@@ -94,8 +94,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🌀SEARCH AGAIN 🌀', url='https://t.me/Filmspoters'),
-                        InlineKeyboardButton('🤖More Bots🤖', url='https://t.me/mymasterbay')
+                        InlineKeyboardButton('🔸BACK TO GROUP🔸', url='https://t.me/Filmspoters'),
+                        InlineKeyboardButton('Search Here♂️', switch_inline_query_current_chat='')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -137,7 +137,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("Dev 👨🏻‍💻", url="https://t.me/ivar_bonel")
                     ],
                     [
-                        InlineKeyboardButton"Search Here♂️", switch_inline_query_current_chat='')
+                        InlineKeyboardButton("Search Here♂️", switch_inline_query_current_chat='')
                     ]
                 ]
             )
