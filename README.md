@@ -19,7 +19,7 @@ Very Sempil Bot Auto Filter bot
 ## Installation
 
 ### Easy Way
-[![Deploy](https://heroku.com/Filmspoters/ALPHA_IMDB_BOT)
+[![Deploy](https://heroku.com/deploy)
 ### Hard Way
 
 ```bash
