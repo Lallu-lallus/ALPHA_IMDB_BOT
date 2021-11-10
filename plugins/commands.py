@@ -15,10 +15,13 @@ logger = logging.getLogger(__name__)
 
 
 PHOTO = [
-    "https://telegra.ph/file/a60bdb69d56d09f3f80d0.jpg",
-    "https://telegra.ph/file/b2b100b48302653b73486.jpg",
-    "https://telegra.ph/file/7ddcffcc3a88292b60d6c.jpg"
-
+    "https://telegra.ph/file/6eb564c7d38dc9e61b45f.jpg",
+    "https://telegra.ph/file/3493359a6795e03e0539a.jpg",
+    "https://telegra.ph/file/854673dc6763735237198.jpg",
+    "https://telegra.ph/file/6155baf585743a3d38266.jpg",
+    "https://telegra.ph/file/9dc69f71e66378f131dba.jpg",
+    "https://telegra.ph/file/8f8541dce9d39476b9869.jpg",
+    "https://telegra.ph/file/8e926501c7a1c15b7f4bd.jpg"
 ]
 
 @Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["broadcast"]))
