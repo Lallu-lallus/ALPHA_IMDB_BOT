@@ -132,8 +132,8 @@ async def start(bot, cmd):
                         InlineKeyboardButton("🔎Search Here🔍", switch_inline_query_current_chat='')
                     ],
                     [
-                        InlineKeyboardButton("🙂 source code", url="https://t.me/biriyanikadaaa/4"),
-                        InlineKeyboardButton("😎 About", callback_data="about")
+                        InlineKeyboardButton("🔊channel🔊", url="https://t.me/Filmspoterchannel"),
+                        InlineKeyboardButton("💬group💬",url="https://t.me/Filmspoters")
                     ],
                     [
                         InlineKeyboardButton("🤴OWNER🤴", url="https://t.me/filmspoteradmin"),
