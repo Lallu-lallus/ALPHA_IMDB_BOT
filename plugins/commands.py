@@ -137,10 +137,10 @@ async def start(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton("🤴OWNER🤴", url="https://t.me/filmspoteradmin"),
-                        InlineKeyboardButton("Dev 👨🏻‍💻", url="https://t.me/ivar_bonel")
+                        InlineKeyboardButton("🏻‍💻", url="https://t.me/ivar_bonel")
                     ],
                     [
-                        InlineKeyboardButton("Search Here♂️", switch_inline_query_current_chat='')
+                        InlineKeyboardButton("👨‍💻Dev👨‍💻", url="https://t.me/filmspoteradmin")
                     ]
                 ]
             )
