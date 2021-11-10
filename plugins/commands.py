@@ -136,8 +136,8 @@ async def start(bot, cmd):
                         InlineKeyboardButton("💬group💬",url="https://t.me/Filmspoters")
                     ],
                     [
-                        InlineKeyboardButton("Help", callback_data="help"),
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("⚒Help⚒", callback_data="help"),
+                        InlineKeyboardButton("😎About😎", callback_data="about")
                     ],
                     [
                         InlineKeyboardButton("👨‍💻Dev👨‍💻", url="https://t.me/filmspoteradmin")
