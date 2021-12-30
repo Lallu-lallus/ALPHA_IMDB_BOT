@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 PHOTO = [
-    "https://telegra.ph/file/daa0e86574b573c68cd7d.jpg",
+    "https://telegra.ph/file/5d6b706c15e7dc4e1a402.jpg",
 
 ]
 
@@ -112,22 +112,22 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url='https://t.me/tg_bots_updates')
+                        InlineKeyboardButton("Channel", url='https://t.me/joinchat/z9D7dU9AN5oyYTll')
                     ]
                 ]
             )
         )
     else:
         await cmd.reply_photo(
-            photo=f"{random.choice(PHOTO)}",
+            photo=f"{random.choice(PHOTO)https://telegra.ph/file/5d6b706c15e7dc4e1a402.jpg}",
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
+                        InlineKeyboardButton("❣️CHANNEL❣️", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl)")
                     ],
                     [
-                        InlineKeyboardButton("🙂 source code", url="https://github.com/Lallu-lallus/ALPHA_IMDB_BOT"),
+                        InlineKeyboardButton("🙂 source code", url="https://t.me/joinchat/FYBCIcMfr0AyOTFl)"),
                         InlineKeyboardButton("😎 About", callback_data="about")
                     ],
                     [
@@ -135,7 +135,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("2 Dev", url="https://t.me/darkz_angel")
                     ],
                     [
-                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
+                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/joinchat/kqXrYjnUQVQ2ZTg1")
                     ]
                 ]
             )
